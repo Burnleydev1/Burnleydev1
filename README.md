@@ -10,8 +10,7 @@ You can click the Preview link to take a look at your changes.
 --->
 ![Burnley's GitHub stats](https://github-readme-stats.vercel.app/api?username=Burnleydev1&show_icons=true&theme=radical)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Burnleydev1)](https://github.com/Burnleydev1/github-readme-stats)
-
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Burnleydev1&layout=compact)](https://github.com/Burnleydev1/github-readme-stats)
 
 <h2 align="center"> 📈 GitHub Activity </h2>
   <a href="https://github.com/Burnleydev1/github-readme-activity-graph"><img alt="Abongwa's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=Burnleydev1&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&hide_border=true&theme=nord" /></a>
