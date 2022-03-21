@@ -3,7 +3,6 @@
 - 🌱 I’m currently learning how to build Open Source
 - 💞️ I’m looking to collaborate on Open Source
 - 📫 How to reach me 
-- 
 
 <!---
 Burnleydev1/Burnleydev1 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
