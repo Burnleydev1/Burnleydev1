@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abongwa Bonalais - QA Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* slate-50 */
+            color: #334155; /* slate-700 */
+        }
+        .section-title {
+            @apply text-3xl font-bold text-slate-800 mb-8 text-center;
+        }
+        .card {
+            @apply bg-white rounded-xl shadow-md p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 h-full;
+        }
+        .tag {
+            @apply inline-block bg-blue-100 text-blue-800 text-xs font-semibold mr-2 mt-2 px-2.5 py-0.5 rounded-full;
+        }
+        .nav-link {
+             @apply text-slate-600 hover:text-blue-600 transition-colors duration-300;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white/80 backdrop-blur-lg sticky top-0 z-50 shadow-sm">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-slate-800">Abongwa Bonalais</a>
+            <div class="hidden md:flex space-x-8">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#awards-leadership" class="nav-link">Awards & Leadership</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <!-- Mobile menu button can be added here -->
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-12 md:py-20">
+
+        <!-- Hero Section -->
+        <section id="hero" class="text-center mb-20 md:mb-32">
+            <h1 class="text-4xl md:text-6xl font-bold text-slate-900 mb-4">Abongwa Bonalais Amahnui</h1>
+            <h2 class="text-2xl md:text-3xl text-blue-600 font-semibold mb-6">Quality-focused QA Engineer</h2>
+            <p class="max-w-3xl mx-auto text-lg text-slate-600 mb-8">
+                Specializing in software testing and automation, including backend API validation, UI testing, and CI/CD pipeline integration. Passionate about shipping reliable software and ensuring seamless user experiences.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="./Abongwa_Bonalais_QA_Engineer_ELCA.pdf" download class="bg-blue-600 text-white font-bold py-3 px-6 rounded-lg shadow-md hover:bg-blue-700 transition-all duration-300 w-full sm:w-auto">
+                    Download Resume
+                </a>
+                <a href="https://linkedin.com/in/abongwa-bonalais" target="_blank" class="bg-slate-700 text-white font-bold py-3 px-6 rounded-lg shadow-md hover:bg-slate-800 transition-all duration-300 w-full sm:w-auto">
+                    View LinkedIn
+                </a>
+                <a href="https://github.com/burnleydev1" target="_blank" class="bg-slate-800 text-white font-bold py-3 px-6 rounded-lg shadow-md hover:bg-slate-900 transition-all duration-300 w-full sm:w-auto">
+                    View GitHub
+                </a>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="mb-20 md:mb-32 scroll-mt-20">
+             <h2 class="section-title">About Me</h2>
+             <div class="max-w-4xl mx-auto text-center text-lg text-slate-600">
+                 <p>I'm a dedicated QA Engineer with over two years of experience in the tech industry, holding a Bachelor of Engineering in Computer Engineering. My journey has taken me through fintech and edtech, where I've honed my skills in building robust automation suites with tools like Selenium, Rest Assured, and Appium. I'm a strong advocate for early bug detection and clean code practices. When I'm not ensuring software quality, I'm actively involved in the tech community, having served as a Cloud Lead for Google Developer Student Clubs and as a Microsoft Learn Student Ambassador. I'm a quick learner, a collaborative teammate, and I'm always excited about the next challenge in creating reliable and user-friendly software.</p>
+             </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="mb-20 md:mb-32 scroll-mt-20">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="relative max-w-4xl mx-auto">
+                <!-- Vertical line -->
+                <div class="absolute left-4 md:left-1/2 w-0.5 h-full bg-slate-200"></div>
+                
+                <!-- Maviance PLC -->
+                <div class="mb-12 flex justify-between items-center w-full">
+                    <div class="hidden md:block w-5/12"></div>
+                    <div class="z-10 flex items-center justify-center w-8 h-8 bg-blue-600 rounded-full text-white font-bold">1</div>
+                    <div class="w-full md:w-5/12 pl-8 md:pl-0 md:pr-8">
+                        <div class="card">
+                            <p class="text-sm text-slate-500">Jan 2024 - Present</p>
+                            <h3 class="text-xl font-bold text-slate-800">QA Engineer</h3>
+                            <p class="text-md font-semibold text-slate-600 mb-2">Maviance PLC</p>
+                            <p class="text-slate-600 text-sm">Led QA on payment services module. Automated API tests with PHPUnit & Rest Assured, integrated into CI/CD pipelines, and introduced visual regression testing with Percy.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tester Work -->
+                <div class="mb-12 flex justify-between flex-row-reverse items-center w-full">
+                    <div class="hidden md:block w-5/12"></div>
+                    <div class="z-10 flex items-center justify-center w-8 h-8 bg-blue-600 rounded-full text-white font-bold">2</div>
+                    <div class="w-full md:w-5/12 pl-8">
+                        <div class="card">
+                            <p class="text-sm text-slate-500">Sep 2022 - Present</p>
+                            <h3 class="text-xl font-bold text-slate-800">QA Tester</h3>
+                            <p class="text-md font-semibold text-slate-600 mb-2">Tester Work (Facebook, Instagram, Ayoba)</p>
+                            <p class="text-slate-600 text-sm">Identified and documented over 18 high-impact bugs for major social media platforms. Executed exploratory, functional, and usability tests across various devices.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarides (Outreachy) -->
+                 <div class="mb-12 flex justify-between items-center w-full">
+                    <div class="hidden md:block w-5/12"></div>
+                    <div class="z-10 flex items-center justify-center w-8 h-8 bg-blue-600 rounded-full text-white font-bold">3</div>
+                    <div class="w-full md:w-5/12 pl-8 md:pl-0 md:pr-8">
+                        <div class="card">
+                            <p class="text-sm text-slate-500">Aug 2023 - Jan 2024</p>
+                            <h3 class="text-xl font-bold text-slate-800">OCaml Contributor</h3>
+                            <p class="text-md font-semibold text-slate-600 mb-2">Tarides (Outreachy)</p>
+                            <p class="text-slate-600 text-sm">Improved error reporting and exception handling in PPXLIB-based OCaml tools, writing comprehensive tests and documentation for new behaviors.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skolabox -->
+                <div class="mb-12 flex justify-between flex-row-reverse items-center w-full">
+                    <div class="hidden md:block w-5/12"></div>
+                    <div class="z-10 flex items-center justify-center w-8 h-8 bg-blue-600 rounded-full text-white font-bold">4</div>
+                    <div class="w-full md:w-5/12 pl-8">
+                        <div class="card">
+                            <p class="text-sm text-slate-500">Apr 2023 - Sep 2023</p>
+                            <h3 class="text-xl font-bold text-slate-800">Full Stack Developer</h3>
+                            <p class="text-md font-semibold text-slate-600 mb-2">Skolabox</p>
+                            <p class="text-slate-600 text-sm">Developed key features for a Spring Boot backend and engineered a responsive Angular admin interface, improving data management efficiency.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="mb-20 md:mb-32 scroll-mt-20">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="card">
+                    <h3 class="text-lg font-bold text-slate-800 mb-3">Languages</h3>
+                    <div class="flex flex-wrap">
+                        <span class="tag">Java</span><span class="tag">Python</span><span class="tag">SQL</span><span class="tag">JavaScript</span><span class="tag">OCaml</span><span class="tag">HTML/CSS</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3 class="text-lg font-bold text-slate-800 mb-3">QA Tools</h3>
+                    <div class="flex flex-wrap">
+                        <span class="tag">Selenium</span><span class="tag">Appium</span><span class="tag">Rest Assured</span><span class="tag">TestNG</span><span class="tag">JUnit</span><span class="tag">Percy</span><span class="tag">Postman</span><span class="tag">TestLink</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3 class="text-lg font-bold text-slate-800 mb-3">Dev Tools</h3>
+                    <div class="flex flex-wrap">
+                        <span class="tag">Git</span><span class="tag">Docker</span><span class="tag">Jenkins</span><span class="tag">GitLab CI</span><span class="tag">TravisCI</span><span class="tag">VS Code</span><span class="tag">IntelliJ</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3 class="text-lg font-bold text-slate-800 mb-3">Frameworks</h3>
+                    <div class="flex flex-wrap">
+                        <span class="tag">Spring Boot</span><span class="tag">FastAPI</span><span class="tag">React</span><span class="tag">Angular</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="mb-20 md:mb-32 scroll-mt-20">
+            <h2 class="section-title">Key Projects & Accomplishments</h2>
+            <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Project 1 -->
+                <div class="card">
+                    <h3 class="text-xl font-bold text-slate-800 mb-2">End-to-End API Test Automation</h3>
+                    <p class="text-md font-semibold text-slate-600 mb-3">Maviance PLC</p>
+                    <p class="text-slate-600 mb-4">Designed and built a comprehensive API test automation suite for corporate payment services. This included creating reusable tests for payment flows, tax integrations, and beneficiary validation, significantly improving regression testing efficiency.</p>
+                    <div class="flex flex-wrap">
+                        <span class="tag">Rest Assured</span><span class="tag">PHPUnit</span><span class="tag">Jenkins</span><span class="tag">GitLab CI</span>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="card">
+                    <h3 class="text-xl font-bold text-slate-800 mb-2">Visual Regression Testing Implementation</h3>
+                    <p class="text-md font-semibold text-slate-600 mb-3">Maviance PLC</p>
+                    <p class="text-slate-600 mb-4">Successfully integrated Percy for visual testing into the UAT workflow. This initiative helped the team detect UI regressions in complex transaction dashboards before they reached production, ensuring a consistent user experience.</p>
+                    <div class="flex flex-wrap">
+                        <span class="tag">Percy</span><span class="tag">UI/UX</span><span class="tag">UAT</span>
+                    </div>
+                </div>
+                 <!-- Project 3 -->
+                <div class="card">
+                    <h3 class="text-xl font-bold text-slate-800 mb-2">High-Impact Bug Detection</h3>
+                    <p class="text-md font-semibold text-slate-600 mb-3">Tester Work</p>
+                    <p class="text-slate-600 mb-4">Identified and documented over 18 critical bugs for Facebook and Instagram. Provided detailed logs and reproduction steps that accelerated resolution times and improved stability for key features before release.</p>
+                    <div class="flex flex-wrap">
+                        <span class="tag">Manual Testing</span><span class="tag">Bug Tracking</span><span class="tag">Jira</span>
+                    </div>
+                </div>
+                 <!-- Project 4 -->
+                <div class="card">
+                    <h3 class="text-xl font-bold text-slate-800 mb-2">Full Stack Feature Development</h3>
+                    <p class="text-md font-semibold text-slate-600 mb-3">Skolabox</p>
+                    <p class="text-slate-600 mb-4">Developed and maintained key features for a school management platform using Spring Boot and Angular. Engineered a responsive admin interface that reduced task completion time for student data management by 15%.</p>
+                    <div class="flex flex-wrap">
+                        <span class="tag">Spring Boot</span><span class="tag">Angular</span><span class="tag">PostgreSQL</span><span class="tag">Full Stack</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Awards & Leadership Section -->
+        <section id="awards-leadership" class="mb-20 md:mb-32 scroll-mt-20">
+            <h2 class="section-title">Awards & Leadership</h2>
+            <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
+                <div class="card">
+                    <h3 class="text-xl font-bold text-slate-800 mb-2">Company Awards</h3>
+                    <p class="text-md font-semibold text-slate-600 mb-3">Maviance PLC</p>
+                    <ul class="text-slate-600 list-none space-y-2">
+                        <li><span class="font-semibold text-blue-600">&#9733;</span> Outstanding Performer Award</li>
+                        <li><span class="font-semibold text-blue-600">&#9733;</span> Team Player Award</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3 class="text-xl font-bold text-slate-800 mb-2">Community Leadership</h3>
+                    <p class="text-md font-semibold text-slate-600">Google Developer Student Clubs & Microsoft Learn Student Ambassador</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="scroll-mt-20">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="text-center max-w-xl mx-auto">
+                <p class="text-lg text-slate-600 mb-6">
+                    I'm currently seeking new opportunities and would love to hear from you. Whether you have a question or just want to connect, feel free to reach out.
+                </p>
+                <a href="mailto:bonalaisabongwa@gmail.com" class="inline-block bg-blue-600 text-white font-bold text-lg py-4 px-8 rounded-lg shadow-lg hover:bg-blue-700 transition-all duration-300">
+                    bonalaisabongwa@gmail.com
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-800 text-slate-400 mt-20">
+        <div class="container mx-auto px-6 py-8 text-center">
+            <p>&copy; 2025 Abongwa Bonalais Amahnui. All Rights Reserved.</p>
+            <p class="text-sm mt-2">Built with HTML & Tailwind CSS.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
